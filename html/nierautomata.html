@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+
+        </title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="/css/template.css">
+        <link rel="stylesheet" href="/fontawesome/css/all.css">
+        <link rel="stylesheet" href="/css/nierautomata.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    </head>
+    <body>
+        <!-- Nav bar kiêm header -->
+        <nav class="navbar sticky-top navbar-expand-lg bg-dark navbar-dark w-100 rounded mb-3">
+            <div class="container">
+                <a class="navbar-brand" href="/html/trangchu.html">
+                    <img src="/images/LogoVNTrick.jpg" alt="" class="logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav $spacer * 10">
+                <li class="nav-item active">
+                    <a class="nav-link text-white" href="/html/trangchu.html">Game</a>
+                </li> 
+                <li class="nav-item $spacer * 10">
+                    <a class="nav-link text-white" href="#">Phần mềm</a>
+                </li>
+                <li class="nav-item $spacer * 10">
+                    <a class="nav-link text-white" href="#">Hỏi đáp</a>
+                </li>
+                <li class="nav-item $spacer * 10">
+                    <a class="nav-link text-white" href="/html/dangnhap.html">Đăng nhập</a>
+                </li>
+                <li class="nav-item $spacer * 10">
+                    <a class="nav-link text-white" href="/html/dangky.html">Đăng ký</a>
+                </li>
+            </ul>
+            </div>
+                <h3 class="text-right text-white">Chia sẻ để thành công.</h3>
+            </div>        
+        </nav>
+        <!-- Nav bar kiêm header end -->
+        <div class="bg-cl mb-3 pr-1">
+            <div class="row">
+            <!-- Mọi người code tại đây -->
+                <div class="noidung col-8 pb-3 pt-1">
+                    <!-- ảnh và game cùng series -->
+                    <div class="container">
+                        <div class="row">
+                            <h4 class="text-white pt-2"><span class="text-danger">---</span> <i class="fas fa-images"></i> Nier Automata <i class="fas fa-images"></i> <span class="text-danger">----------------------------------------------------</span></h4>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <div class="slideanh">
+                                    <div class="anh">
+                                        <img class="w-100 h-50 rounded" src="/images/na-1.jpg" alt="">
+                                    </div>
+                                    <div class="anh">
+                                        <img class="w-100 h-50 rounded" src="/images/na-2.jpg" alt="">
+                                    </div>
+                                    <div class="anh">
+                                        <img class="w-100 h-50 rounded" src="/images/na-3.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="text-center">
+                                    <span class="dot" onclick="currentSlide(1)"></span>
+                                    <span class="dot" onclick="currentSlide(2)"></span>
+                                    <span class="dot" onclick="currentSlide(3)"></span>
+                                </div>
+                                <script src="/js/slideanh.js"></script>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <h6 class="text-white text-center">Game cùng series</h6>
+                            <div class="col-3">
+                                <div class="anhoverlay">
+                                    <img src="/images/nier-replicant-ly-do-cong-dong-yeu-thich02_hhga.jpeg" alt="" class="w-100 d-block rounded">
+                                    <div class="overlay">Nier Replicant Ver 1.33</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ảnh và game cùng series end -->
+
+                    <!-- Thông tin game -->
+                    <div class="container mt-2">
+                        <div class="row">
+                            <h4 class="text-white pt-2"><span class="text-danger">---</span> Thông tin game <i class="fas fa-info-circle"></i><span class="text-danger">-------------------------------------------------------</span></h4>
+                        </div>
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="text-white bg-secondary rounded">
+                                    <p class="p-3 lh-lg">
+                                        <i class="fas fa-signature"></i>  Tên game : Nier Automata <br>
+                                        <i class="fas fa-calendar"></i>  Ngày cập nhật cuối : 14/04/2022 <br>
+                                        <i class="fas fa-tag"></i>  Thể loại : Chặt chém, Hành động, Góc nhìn thứ 3 <br>
+                                        <i class="fas fa-weight-hanging"></i>  Dung lượng : 32GB <br>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="text-white bg-secondary rounded">
+                                    <p class="p-3 lh-lg">
+                                        <i class="fas fa-check-circle text-warning"></i>  Ram yêu cầu : 6 GBs <br>
+                                        <i class="fas fa-check-circle text-warning"></i>  Số người chơi : 1 <br>
+                                        <i class="fas fa-check-circle text-warning"></i>  Ngôn ngữ : Anh, Nhật,... <br>
+                                        <i class="fas fa-check-circle text-warning"></i>  Hệ điều hành : Window <br>
+                                        <i class="fas fa-check-circle text-warning"></i>  Chơi bằng : Chuột, bàn phím <br>
+                                        <i class="fas fa-check-circle text-warning"></i>  Series Game : Nier <br>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Thông tin game end -->
+
+                    <!-- Giới thiệu game -->
+                    <div class="container mt-2">
+                        <div class="row">
+                            <h4 class="text-white pt-2"><span class="text-danger">---</span> Giới thiệu game <i class="fas fa-gamepad"></i><span class="text-danger">------------------------------------------------------</span></h4>
+                        </div>
+                        <div class="row mb-2">
+                            <div class="col-5 bg-dark text-white mx-auto rounded">
+                                <p>
+                                    <h6 class="text-center">Nội dung</h6>
+                                    <a class="text-info" id="1">1. Giới thiệu về game</a><br>
+                                    <a class="text-info" id="2">2. Hướng dẫn cài đặt</a><br>
+                                    <a class="text-info" id="3">3. Cấu hình tối thiểu và khuyến khích</a><br>
+                                    <a class="text-info" id="4">4. Link tải</a><br>
+                                    <a class="text-info" id="5">5. Bình luận</a><br>
+                                </p>
+                                <script src="/js/chimuc.js"></script>
+                            </div>
+                        </div>
+                        <div class="row" id="gtgame">
+                            <div class="col-11 text-white bg-dark rounded mx-auto">
+                                <p class="lh-lg"> 
+                                    <h6 class="text-danger">Tải Nier Automata link Google tốc độ cao</h6>
+                                    <h6 class="text-danger">Sơ lược về Nier Automata</h6>
+                                    Nier Automata là câu chuyện về ba nhân vật android chính 2B, 9S và A2 trong trận chiến chống lại người máy để giành lại Trái Đất <br><br>
+                                    Cha đẻ của game, Yoko Taro, vốn ít được biết tới, tuy nhiên vẫn được các Fan biết tới với phong cách quái dị khi mỗi lần phỏng vấn đều đeo lên một chiếc mặt nạ <br><br>
+                                    Khi công ty cũ Cavia - nơi đã sản sinh ra Nier và Drakenguard giải thể, ông được Square Enix mời đến như một "Freelancer" <br><br>
+                                    Dù không có các tác phẩm lay động, kinh dị hay hào nhoáng, song Yoko Taro được đánh giá cao vào việc xây dựng kịch bản rất khác người. <br><br>
+                                    Nier là một minh chứng, vì tựa game này không hề có yếu tố lôi kéo hứng thứ đối với mọi người. Nhưng chỉ những fan của dòng game này mới biết được, cái gái trị thực sự của tựa game này chính là cốt truyện, từng chi tiết ẩn, những nội dung mang tính nhân loại và âm nhạc <br><br>
+                                    và các bạn biết không, vốn dĩ Yoko Taro cho ra sản phẩm Nier Automata là hoàn toàn không mong đợi gì điều này sẽ thành công, vì ý muốn ban đầu của ông chỉ là tạo ra những cỗ máy mang hình người phụ nữ ông thích. Và không ngờ là nó đạt ngoài doanh thu mong đợi, thậm chí là rất nhiều. Đến nỗi ông còn nói thật là : Nier Automata was a fluke. <br><br>
+                                    Nier Automata mang đậm dấu ấn của Yoko Taro <br><br>
+                                    NA lấy mốc thời gian sau Nier rất lâu, khi mà toàn bộ nhân loại dời lên Mặt Trăng do sự xâm lăng của người máy do sự điều khiển của Alien. Để chống lại chúng, loài người đã sáng lập ra Yorha, một tổ chức Android với các tính năng chiến đấu, thu thập thông tin vô cùng mạnh mẽ nhằm chống lại và giành lại Trái Đất từ người máy. Người chơi sẽ được nhập vai 2B, 9S và A2 xuyên suốt câu chuyện <br><br>
+                                    Yoko Taro đã đưa ra nhiều dấu hỏi vấn đề khiến cho người chơi phải định hình lại khái niệm bản thân về các vấn đề nhân loại. Xuyên suốt game, ta sẽ thấy được các chất điên, hài hước nhưng cũng sâu lắng mà Yoko Taro mang lại<br><br>
+                                    Khi fan hâm mộ hay tin rằng Platinum sẽ đảm nhận gameplay hành động của Nier Automata, họ đã hoàn toàn điên đảo vì trước đó công ty này đã nổi tiếng Bayonetta, Vanquish,... Tưởng đâu sẽ là các Hideki Kamiya hay Atsushi Inaba phát triển. Nhưng không, thực chất chỉ là một team dev B ( hay gọi là đội dự phòng ) đảm nhận <br><br>
+                                    Bất ngờ thay, Nier Automata không hề mang lại một gameplay nhàm chán. Từng pha hành động, chặt chém, hoạt ảnh,... đều mượt mà, bắt mắt, tạo được cảm hứng rất lớn với người chơi. game xử lý độ tăng tiến level của nhân vật rất tốt. Có thể nói, Platinum đã hoàn thành rất tốt công việc thổi hồn cho gameplay Nier Automata <br><br>
+                                    Nhắc về các sản phẩm của Yoko Taro, ta không thể không nói về mảng âm nhạc. Bộ đôi Keiichi Okabe và keigo Hoashi đã thực sự mang lại một nguồn gió mới cho tựa game. Nhưng tưởng sẽ không thể so sánh được với các phần game trước, nhưng không, Nier Automata thậm chí còn làm tốt hơn. Thỉnh thoảng bản thân tôi vẫn nghe đi nghe lại các bản nhạc như Song of the Ancients, Weight of The Worlds. <br><br>
+                                    Tác giả bài viết : Huỳnh Trung Nguyên
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Giới thiệu game end -->
+
+                    <!-- Cách cài và link tải -->
+                    <div class="container mt-2" id="ch">
+                        <div class="row">
+                            <h4 class="text-white pt-2"><span class="text-danger">---</span> Cài game <i class="fas fa-hammer"></i><span class="text-danger">--------------------------------------------------------------</span></h4>
+                        </div>
+                        <div class="row">
+                            <p class="bg-danger text-white w-25 text-center mx-auto rounded">Cấu hình</p>
+                            <p class="mx-auto">
+                                <h6 class="text-white">Tối thiểu :</h6>
+                                <div>
+                                    <ul class="text-white text-justify ml-5">
+                                        <li>Hệ điều hành và vi xử lý 64 bit</li>
+                                        <li>Window 7, 8.1, 10 hoặc 11</li>
+                                        <li>CPU : Intel Core i3-2100 / AMD A8 6500</li>
+                                        <li>Ram :  6 GB RAM</li>
+                                        <li>Vi xử lý đồ họa : NVIDIA GeForce GTX 770 / AMD Radeon R9 270X</li>
+                                        <li>DirectX: Version 11</li>
+                                        <li>Hệ thống mạng : Broadband Internet connection</li>
+                                        <li>Bộ nhớ lưu trữ : 50 GB available space</li>
+                                    </ul>
+                                </div>
+                                <h6 class="text-white">Khuyến nghị :</h6>
+                                <div class="mx-auto">
+                                    <ul class="text-white text-justify ml-5">
+                                        <li>Hệ điều hành và vi xử lý 64 bit</li>
+                                        <li>Window 7, 8.1, 10 hoặc 11</li>
+                                        <li>CPU : Intel Core i5-4670/ AMD A10 7850K</li>
+                                        <li>Ram :  8 GB RAM</li>
+                                        <li>Vi xử lý đồ họa : NVIDIA GeForce GTX 980/ AMD R9 380X</li>
+                                        <li>DirectX: Version 11</li>
+                                        <li>Hệ thống mạng : Broadband Internet connection</li>
+                                        <li>Bộ nhớ lưu trữ : 50 GB available space</li>
+                                    </ul>
+                                </div>
+                            </p>
+                        </div>
+                        <div class="row mb-3">
+                            <p class="bg-danger text-white w-25 text-center mx-auto rounded" id="hd">Hướng dẫn cài đặt</p>
+                            <div class="mx-auto">
+                                <ul class="text-white text-justify ml-5 list-group w-50 mx-auto">
+                                    <li class="list-group-item">1. Download và giải nén</li>
+                                    <li class="list-group-item">2. Chạy File setup rồi giải nén</li>
+                                    <li class="list-group-item">3. Copy tất cả file trong foler Crack-CPY vào thư mục game bạn cài</li>
+                                    <li class="list-group-item">4. Thưởng thức game thôi</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="row mb-3" id="link">
+                            <p class="bg-danger text-white w-25 text-center mx-auto rounded">Link file</p>
+                            <div>
+                                <h6 class="text-info text-center">Nier Automata GOTY</h6>
+                                <div class="text-center">
+                                    <button class="nutmua"><i class="fas fa-shopping-cart"></i> Nhấn vào để mua link giá 1.000 VNĐ <i class="fas fa-shopping-cart"></i></button>
+                                    <div class="bought">
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Cách cài và link tải end -->
+                
+                    <!-- Bình luận -->
+                    <div class="container mb-3" id="bl">
+                        <div class="row">
+                            <h4 class="text-white pt-2"><span class="text-danger">---</span> Bình luận <i class="fas fa-comment-alt"></i><span class="text-danger">--------------------------------------------------------------</span></h4>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <table class="text-white">
+                                    <tr>
+                                        <td>Họ và tên :&nbsp;</td>
+                                        <td><input type="text" class="rounded"></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Nội dung bình luận :&nbsp;</td>
+                                        <td><textarea class="rounded"></textarea></td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-3 mx-auto">
+                                <button class="nutgui">Gửi</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Bình luận end -->
+
+                    <!-- Bình luận của mọi người -->
+                    <div class="container">
+                        <div class="row">
+                            <h4 class="text-white pt-2"><span class="text-danger">---</span> Bình luận của mọi người <i class="fas fa-comment-alt"></i><span class="text-danger">---------------------------------------------</span></h4>
+                        </div>
+                        <div class="row">
+                            <div class="col-2">
+                                <img src="/images/user.png" alt="" class="w-100 rounded-3">
+                            </div>
+                            <div class="col-10">
+                                <div id="hvt">
+
+                                </div>
+                                <div id="ndbl">
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Bình luận của mọi người end -->
+                </div>
+
+                <!-- Thẻ aside -->
+                <div class="col-3 theaside">
+                    <div class="stk">
+                        <div class="container mt-3 pt-2 pb-2 bg-dark rounded">
+                            <div class="row">
+                                <h5 class="text-white text-center"><i class="fas fa-money-bill"></i> Mua game bản quyền<span class="text-danger">--</span></i></h5>
+                            </div>
+                            <p class="bg-dark text-white text-justify">
+                             Nếu thấy game hay và mong muốn ủng hộ nhà phát hành, khuyến khích bạn nên mua game bản quyền tại đây.
+                            </p>
+                            <div class="text-center">
+                                <a href="https://store.steampowered.com/app/524220/NieRAutomata/"><button class="nutmua">Mua game bản quyền</button></a>
+                            </div>
+                        </div>
+                        <div class="container mt-3 pt-2 pb-2 bg-dark rounded">
+                            <div class="row">
+                                <h5 class="text-white text-center"><i class="fas fa-cogs"></i> Cập nhật mới nhất<span class="text-danger">--</span></i></h5>
+                            </div>
+                            <h6 class="text-white"><i class="fas fa-calendar"></i> 14/04/2022</h6>
+                            <p class="bg-dark text-white text-justify">
+                                - Cập nhật bản GOTY
+                            </p>
+                        </div>
+                        <div class="container mt-3 pt-2 pb-2 bg-dark rounded">
+                            <p class="text-info d-inline"><i class="fas fa-eye"></i> Lượt xem</p><span class="float-end d-inline text-white">27312</span>
+                            <hr class="text-white">
+                            <p class="text-danger d-inline"><i class="fas fa-grin-hearts"></i> Yêu thích</p><span class="float-end d-inline text-white">27312</span>
+                            <hr class="text-white">    
+                            <p class="text-primary d-inline"><i class="fas fa-comment"></i> Bình luận</p><span class="float-end d-inline text-white">27312</span>
+                            <hr class="text-white">   
+                        </div>
+                    </div>
+                </div>
+                <!-- Thẻ aside end -->
+                <div class="text-end">
+                    <a href='#' title="Back to top">
+                        <i class="fas fa-arrow-alt-circle-up"></i>Về đầu trang
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- footer -->
+        <footer class="text-center bg-dark text-white pt-3">
+            <p class="ftp">
+                Kết nối với chúng tôi qua
+            </p>
+            <div>
+                <a href="" class="me-4 text-reset">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="" class="me-4 text-reset">
+                    <i class="fab fa-google"></i>
+                </a>
+                <a href="" class="me-4 text-reset">
+                    <i class="fab fa-github"></i>
+                </a>
+            </div>
+            <hr class="text-white">
+            <section class="">
+                <div class="container text-center text-md-start mt-5">
+                    <div class="row mt-3">
+                        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                            <h6 class="text-uppercase text-info fw-bold mb-4">
+                                <i class="fas fa-gem me-3"></i>VNTrick
+                            </h6>
+                            <p>
+                                VNTrick là một website chuyên cung cấp các game, phần mềm crack và chia sẻ thủ thuật máy tính window cho người dùng
+                            </p>
+                        </div>
+                        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                            <h6 class="text-uppercase text-info fw-bold mb-4">
+                                Chỉ mục
+                            </h6>
+                            <p>
+                                <a href="#!" class="text-reset">Game</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-reset">Phần Mềm</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-reset">Hỏi đáp</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-reset">Chia sẻ</a>
+                            </p>
+                        </div>
+                        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                            <h6 class="text-uppercase text-info fw-bold mb-4">
+                                Mục khác
+                            </h6>
+                            <p>
+                                <a href="#!" class="text-reset">Link Donate</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-reset">Hỗ trợ</a>
+                            </p>
+                        </div>
+                        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                            <h6 class="text-uppercase text-info fw-bold mb-4">
+                                Thông tin liên hệ
+                            </h6>
+                            <p>
+                                <i class="fas fa-home me-3"></i>UIT - Trường Đại học Công nghệ Thông tin
+                            </p>
+                            <p>
+                                <i class="fas fa-envelope me-3"></i>19521911@gm.uit.edu.vn
+                            </p>
+                            <p>
+                                <i class="fas fa-phone me-3"></i> 0868018004
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="text-center p-4 border-top" style="background-color: rgba(0, 0, 0, 0.05);">
+                ©Copyright: Group 17 IE303.M22 2022
+            </div>
+        </footer>
+        <!-- footer end -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    </body>
+</html>
