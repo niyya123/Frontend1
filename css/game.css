@@ -1,0 +1,70 @@
+.doanvan
+{
+    font-size: 20px;
+    color: black;
+}
+.col-lg1
+{
+    text-indent: 20px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.noidung
+{
+    background: rgb(120,124,156);
+    background: linear-gradient(180deg, rgba(120,124,156,1) 0%, rgba(40,36,44,1) 100%);
+    margin-top: 10px;
+    margin-left: 60px;
+    margin-right: 60px;
+    border-radius: 5px;
+}
+.ol 
+{
+    position: relative;
+}
+.overlay 
+{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+}
+.ol:hover .overlay 
+{
+    opacity: 0.9;
+}
+.text 
+{
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.searchbox
+{
+    width: 20%;
+    padding-bottom: 3px;
+    border-radius: 5px;
+}
+.user
+{
+    margin-left: 80%;
+}
+.logouser{
+    width: 15%;
+}
+  
+  
+
+
+
+
