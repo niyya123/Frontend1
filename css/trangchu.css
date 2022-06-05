@@ -49,4 +49,34 @@
     border-radius: 5px;
 }
 
+.hd .hdtd h3{
+    background-color: white;
+    width: 70%;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 5px;
+}
 
+.hd .hdtd h3 a{
+    text-decoration: none;
+}
+
+.hd .hdtd h3 a:hover{
+    color: cyan;
+}
+
+.anhuser{
+    width: 30px;
+    border-radius: 15px;
+}
+
+.userprofile{
+    text-decoration: none;
+}
+
+.lx{
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 10px;
+    color: white;
+}
