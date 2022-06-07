@@ -1,0 +1,10 @@
+.noidung h3{
+    background-color: aqua;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: 2px solid red;
+}
