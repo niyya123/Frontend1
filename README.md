@@ -1,3 +1,3 @@
 # Frontend1
 This project uses simple HTML CSS and JAVASCRIPTS to build Frontend-only websites for sharing games, softwares, posts,...
-Link to demo website : https://vntricks.netlify.app/
+Link to demo website : https://vntricks.netlify.app/html/trangchu.html
